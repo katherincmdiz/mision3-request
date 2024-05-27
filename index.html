@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Info</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container">
+    <h1>Información del Usuario de GitHub</h1>
+    <input type="text" id="username" placeholder="Nombre de usuario de GitHub">
+    <button onclick="obtenerInfoUsuarioGitHub()">Obtener Información</button>
+
+
+    <div id="user-info">
+        <p><strong>Nombre:</strong> <span id="name"></span></p>
+        <p><strong>Seguidores:</strong> <span id="followers"></span></p>
+        <p><strong>Repositorios Públicos:</strong> <span id="public-repos"></span></p>
+    </div>
+</section>
+
+    <script src="funcion.js"></script>
+</body>
+</html>
